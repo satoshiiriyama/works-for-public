@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Yomu Yomu Kanji</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+ 
+<body>
+    <h1>たのしいパパアプリ 1年生</h1>
+
+    <div class="a">
+
+      <label class="mokuji" for="textForm">ぶん:  </label>
+      <button class="mokuji" id="button1_1">その１</button>
+      <button class="mokuji" id="button2_1">その２</button>
+      <button class="mokuji" id="button3_1">その３</button>
+      <button class="mokuji" id="button4_1">その４</button>
+      <button class="mokuji" id="button5_1">その５</button>
+      <button class="mokuji" id="button6_1">その６</button>
+      <button class="mokuji" id="button7_1">その７</button>
+      <button class="mokuji" id="button8_1">その８</button>
+      <br><br>
+      <label class="mokuji" for="textForm">もじ: </label>
+      <button class="mokuji" id="button1_2">その１</button>
+      <button class="mokuji" id="button2_2">その２</button>
+      <button class="mokuji" id="button3_2">その３</button>
+      <button class="mokuji" id="button4_2">その４</button>
+      <button class="mokuji" id="button5_2">その５</button>
+      <button class="mokuji" id="button6_2">その６</button>
+      <button class="mokuji" id="button7_2">その７</button>
+      <button class="mokuji" id="button8_2">その８</button>
+    </div>　
+
+
+    
+    <div>もんだい: 
+          <span id="mondai"></span>
+    </div>    
+    
+    <br>
+    
+    <div>
+            <label for="textForm">かいとう:</label>
+            <input type="text" id="textForm">
+            <button id="buttonA">ていしゅつ</button>
+            <button id="buttonB">つぎ</button>
+    </div>
+    
+    <br>
+
+    <div> 
+        <span id="comment"></span>
+    </div>
+
+</body>
+ 
+<!-- Our JS -->
+<script type="text/javascript" src="{{ url_for('static', filename='logic.js') }}"></script>
+
+</html>

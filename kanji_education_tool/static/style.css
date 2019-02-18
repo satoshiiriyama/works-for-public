@@ -1,0 +1,72 @@
+body{
+  margin-top : 10px;
+  margin-left : 40px;
+  font-family: "UD Digi Kyokasho N-R";
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 75px
+}
+
+h1:after {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a8d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+input{
+  width:350px;
+  height:65px;
+  vertical-align: middle;
+  font-family: "UD Digi Kyokasho N-R";
+  font-size: 80%
+  }
+
+button{
+  width:150px;
+  height:65px;
+  vertical-align: middle;
+  font-family: "UD Digi Kyokasho N-R";
+  font-size: 30%;  
+}
+
+
+div {
+  font-size: 65px;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+label {
+  vertical-align: middle
+}
+
+
+button.mokuji{
+  width:60px;
+  height:32px;
+  vertical-align: middle;
+  font-size: 58%  
+  }
+
+div.a {
+  font-size: 120%;
+  margin-top: 20px;
+}  
+
